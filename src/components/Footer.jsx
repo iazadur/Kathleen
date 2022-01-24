@@ -6,8 +6,8 @@ import visa from '../assert/visa.png'
 const Footer = () => {
     return (
         <>
-            <footer class="text-black body-font bg" style={{ backgroundColor: "#FFF8EB", backgroundImage: [`url(${left})`,` url(${right})`]}}>
-                <div class="container px-5 py-1 mx-auto">
+            <footer class="text-black body-font bg " style={{ backgroundColor: "#FFF8EB", backgroundImage: [`url(${left})`,` url(${right})`]}}>
+                <div class="container px-5 py-1 mx-auto py-8">
                     <div class="flex flex-wrap md:text-left text-center order-first">
                         <div class="lg:w-1/5 md:w-1/5 w-full px-4">
                             <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Quick Links</h2>
