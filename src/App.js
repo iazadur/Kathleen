@@ -1,5 +1,6 @@
 import './App.css';
 import Hero from './components/Hero';
+import ProductDetails from './components/ProductDetails';
 import Features from './components/Shared/Features';
 import TextCard from './components/Shared/TextCard';
 
@@ -14,9 +15,10 @@ function App() {
   return (
     <div>
       <Hero />
-      <TextCard heading={text[0]} paragraph={text[1]}/>
+      <TextCard heading={text[0]} paragraph={text[1]} />
       <Features />
-      <TextCard heading={text[2]} paragraph={text[3]}/>
+      <TextCard heading={text[2]} paragraph={text[3]} />
+      <ProductDetails />
     </div>
   );
 }
