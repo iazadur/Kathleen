@@ -40,3 +40,9 @@
 .text24{
   font-size: 24px;
 }
+.bg {
+  
+  background-position: left,right;
+  background-repeat: no-repeat, no-repeat;
+  padding: 15px;
+}
