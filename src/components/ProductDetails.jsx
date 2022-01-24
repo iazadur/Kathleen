@@ -5,17 +5,22 @@ const ProductDetails = () => {
     const [quantity, setQuantity] = useState(1)
     return (
         <>
+            <div className="" style={{ backgroundColor:"#C1A544"}}>
+                <div className="container m-auto">
+                    <h3 className='text-4xl text-white font-semibold py-8 lg:mx-44'>Products</h3>
+                </div>
+            </div>
             <section class="text-gray-600 body-font overflow-hidden">
                 <div class="container px-5 py-24 mx-auto">
                     <div class="lg:w-4/5 mx-auto flex flex-wrap ">
                         <div className=" flex gap-x-2 flex-col lg:flex-row w-full lg:w-1/2 ">
                             <div className="flex lg:flex-col flex-row lg:w-2/12 w-full gap-y-4 order-1 lg:order-0 gap-2 my-3">
-                                <img alt="ecommerce" class="lg:w-full w-1/4 h-auto lg:h-auto object-cover object-center rounded" src="https://dummyimage.com/100x100" />
-                                <img alt="ecommerce" class="lg:w-full w-1/4 h-auto lg:h-auto object-cover object-center rounded" src="https://dummyimage.com/100x100" />
-                                <img alt="ecommerce" class="lg:w-full w-1/4 h-auto lg:h-auto object-cover object-center rounded" src="https://dummyimage.com/100x100" />
-                                <img alt="ecommerce" class="lg:w-full w-1/4 h-auto lg:h-auto object-cover object-center rounded" src="https://dummyimage.com/100x100" />
+                                <img alt="" class="lg:w-full w-1/4 h-auto lg:h-auto object-cover object-center rounded" src="https://dummyimage.com/100x100" />
+                                <img alt="" class="lg:w-full w-1/4 h-auto lg:h-auto object-cover object-center rounded" src="https://dummyimage.com/100x100" />
+                                <img alt="" class="lg:w-full w-1/4 h-auto lg:h-auto object-cover object-center rounded" src="https://dummyimage.com/100x100" />
+                                <img alt="" class="lg:w-full w-1/4 h-auto lg:h-auto object-cover object-center rounded" src="https://dummyimage.com/100x100" />
                             </div>
-                            <img alt="ecommerce" class="order-0 lg:order-1 w-full h-auto lg:h-auto lg:w-10/12  object-cover object-center rounded" src="https://dummyimage.com/400x400" />
+                            <img alt="" class="order-0 lg:order-1 w-full h-auto lg:h-auto lg:w-10/12  object-cover object-center rounded" src="https://dummyimage.com/400x400" />
                         </div>
                         <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0 ">
                             <h1 class="text-gray-900 text-5xl title-font font-medium mb-1">Kathleen Mud Mask</h1>

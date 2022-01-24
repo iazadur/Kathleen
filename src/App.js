@@ -1,4 +1,5 @@
 import './App.css';
+import Footer from './components/Footer';
 import Hero from './components/Hero';
 import ProductDetails from './components/ProductDetails';
 import Features from './components/Shared/Features';
@@ -19,6 +20,7 @@ function App() {
       <Features />
       <TextCard heading={text[2]} paragraph={text[3]} />
       <ProductDetails />
+      <Footer />
     </div>
   );
 }
