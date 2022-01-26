@@ -1,5 +1,6 @@
 import './App.css';
 import Footer from './components/Footer';
+import Gallary from './components/Gallary';
 import Hero from './components/Hero';
 import NewsLetter from './components/NewsLetter';
 import ProductDetails from './components/ProductDetails';
@@ -21,6 +22,7 @@ function App() {
       <Features />
       <TextCard heading={text[2]} paragraph={text[3]} />
       <ProductDetails />
+      <Gallary />
       <NewsLetter/>
       <Footer />
     </div>
