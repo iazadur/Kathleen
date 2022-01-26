@@ -1,4 +1,5 @@
 import './App.css';
+import CustomerSay from './components/CustomerSay';
 import Footer from './components/Footer';
 import Gallary from './components/Gallary';
 import Hero from './components/Hero';
@@ -23,6 +24,7 @@ function App() {
       <Features />
       <TextCard heading={text[2]} paragraph={text[3]} />
       <ProductDetails />
+      <CustomerSay />
       <RecentBlog />
       <Gallary />
       <NewsLetter />
