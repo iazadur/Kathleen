@@ -8,6 +8,7 @@ import ProductDetails from './components/ProductDetails';
 import RecentBlog from './components/RecentBlog';
 import Features from './components/Shared/Features';
 import TextCard from './components/Shared/TextCard';
+import Slider from './components/Slider';
 
 const text = [
   "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
@@ -23,6 +24,7 @@ function App() {
       <TextCard heading={text[0]} paragraph={text[1]} />
       <Features />
       <TextCard heading={text[2]} paragraph={text[3]} />
+      <Slider />
       <ProductDetails />
       <CustomerSay />
       <RecentBlog />

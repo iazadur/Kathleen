@@ -54,3 +54,13 @@
 box-sizing: border-box;
 border-radius: 5px;
 }
+.swiper-button-prev {
+   
+    display: none !important;
+}
+.swiper-button-next{
+background: #fff !important;
+padding: 5px 8px !important;
+box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+color: #000 !important;
+}

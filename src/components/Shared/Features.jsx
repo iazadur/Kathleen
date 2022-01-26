@@ -1,6 +1,6 @@
 import React from 'react';
 import vactor from '../../assert/Vector.png'
-import v from '../../assert/bg-v.png'
+// import v from '../../assert/bg-v.png'
 
 const Features = () => {
     return (
