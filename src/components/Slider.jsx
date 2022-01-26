@@ -19,9 +19,9 @@ import 'swiper/css/scrollbar';
 const Slider = () => {
     return (
         <div className="container m-auto">
-            <div className="grid grid-cols-3">
+            <div className="grid grid-cols-3 py-10">
                 <div className="flex justify-center items-center">
-                    <div className="">
+                    <div className=" space-y-5">
                         <h1 className='text-5xl font-semibold'>Lorem Ipsum is simply dummy Lorem </h1>
                         <p className='text24'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever sin</p>
                     </div>
