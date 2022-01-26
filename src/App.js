@@ -4,6 +4,7 @@ import Gallary from './components/Gallary';
 import Hero from './components/Hero';
 import NewsLetter from './components/NewsLetter';
 import ProductDetails from './components/ProductDetails';
+import RecentBlog from './components/RecentBlog';
 import Features from './components/Shared/Features';
 import TextCard from './components/Shared/TextCard';
 
@@ -22,8 +23,9 @@ function App() {
       <Features />
       <TextCard heading={text[2]} paragraph={text[3]} />
       <ProductDetails />
+      <RecentBlog />
       <Gallary />
-      <NewsLetter/>
+      <NewsLetter />
       <Footer />
     </div>
   );
