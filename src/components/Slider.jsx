@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 // import Swiper core and required modules
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 
@@ -17,21 +17,40 @@ import 'swiper/css/scrollbar';
 
 
 const Slider = () => {
+    const [scr,setScr] = useState(3)
+    useEffect(() => {
+        if (window.screen.width < 500) {
+            setScr(2)
+        }
+    },[])
+    
     return (
         <div className="container m-auto">
-            <div className="grid grid-cols-3 py-10">
+            <div className="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 py-10">
                 <div className="flex justify-center items-center">
                     <div className=" space-y-5">
                         <h1 className='text-5xl font-semibold'>Lorem Ipsum is simply dummy Lorem </h1>
                         <p className='text24'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever sin</p>
                     </div>
                 </div>
-                <div className="col-span-2">
+                <div className="lg:col-span-2 col-span-1">
                     <Swiper
+                    className=''
                         // install Swiper modules
                         modules={[Navigation, Pagination, Scrollbar, A11y]}
                         spaceBetween={50}
-                        slidesPerView={3}
+                        breakpoints={{
+                            500: {
+                                slidesPerView: 1,
+
+                            },
+                            700: {
+                                slidesPerView: 1
+                            },
+                            1024: {
+                                slidesPerView: 3
+                            }
+                        }}
                         navigation
                         loop={true}
                         pagination={{ clickable: true }}
