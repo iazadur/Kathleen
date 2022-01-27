@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 // import Swiper core and required modules
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+import { Navigation, Pagination, A11y, EffectFade  } from 'swiper';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import slider from '../assert/slider1.png'
@@ -12,17 +12,12 @@ import 'swiper/css';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import 'swiper/css/scrollbar';
+import 'swiper/css/effect-fade';
 
 
 
 const Slider = () => {
-    const [scr,setScr] = useState(3)
-    useEffect(() => {
-        if (window.screen.width < 500) {
-            setScr(2)
-        }
-    },[])
+   
     
     return (
         <div className="container m-auto">
@@ -37,7 +32,7 @@ const Slider = () => {
                     <Swiper
                     className=''
                         // install Swiper modules
-                        modules={[Navigation, Pagination, Scrollbar, A11y]}
+                        modules={[Navigation, Pagination,  A11y, EffectFade ]}
                         spaceBetween={50}
                         breakpoints={{
                             500: {
